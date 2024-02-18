@@ -1,0 +1,12 @@
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\bin\Debug\netstandard2.0\AppPizza.deps.json
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\bin\Debug\netstandard2.0\AppPizza.dll
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\bin\Debug\netstandard2.0\AppPizza.pdb
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\AppPizza.csprojAssemblyReference.cache
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\AppPizza.csproj.CoreCompileInputs.cache
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\AppPizza.AssemblyInfoInputs.cache
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\AppPizza.AssemblyInfo.cs
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\AppPizza.dll
+C:\Users\yoann\source\repos\AppPizza\AppPizza\AppPizza\obj\Debug\netstandard2.0\AppPizza.pdb

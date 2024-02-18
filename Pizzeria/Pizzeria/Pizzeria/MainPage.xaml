@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Pizzeria"
+             x:Class="Pizzeria.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <StackLayout.Resources>
+            <ResourceDictionary>
+                <x:String x:Key="MainTitle">Carte des pizzas</x:String>
+            </ResourceDictionary>
+        </StackLayout.Resources>
+
+        <StackLayout BindingContext="{StaticResource Key=MainTitle}" HorizontalOptions="CenterAndExpand">
+            <Label Text="{Binding .}" FontAttributes="Bold" FontSize="Large" />
+        </StackLayout>
+
+        <ListView x:Name="listePizzas" HasUnevenRows="True" ItemTapped="ListePizzas_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+
+                                <StackLayout Grid.Column="0" Grid.Row="0" Orientation="Horizontal">
+                                    <Label Text="{Binding Nom}" FontAttributes="Bold" FontSize="Medium" />
+                                    <Image Source="{Binding Path=IsVegetarian, Converter={StaticResource cnvBoolToVeganImage}}"
+                                           WidthRequest="20" HeightRequest="20" />
+                                </StackLayout>
+
+                                <Label Grid.Column="1" Grid.Row="0"
+                                       Text="{Binding Prix, StringFormat='\{0:C2\}'}"
+                                       HorizontalOptions="End"
+                                       FontAttributes="Bold" FontSize="Small" />
+
+                                <Label Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="2"
+                                       Text="{Binding Ingredients}"
+                                       FontSize="Default" />
+                            </Grid>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

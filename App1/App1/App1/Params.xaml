@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppParams.Params"
+             Title="Mes Paramètres">
+    
+    <ContentPage.Content>
+        <TableView Intent="Settings">
+            <TableRoot>
+
+                <TableSection Title="Compte" >
+                    <SwitchCell Text="Compte Actif" On="false" OnChanged="CompteActif_OnChanged"></SwitchCell>
+                </TableSection>
+
+                <TableSection Title="Utilisateur">
+                    <EntryCell x:Name="email" Placeholder="Email" Keyboard="Keyboard.Default" Completed="Email_Completed"></EntryCell>
+                    <EntryCell x:Name="telephone" Placeholder="Telephone" Keyboard="Keyboard.Default" Completed="Telephone_Completed"></EntryCell>
+                </TableSection>
+
+                <TableSection Title="Localisation">
+                    <SwitchCell Text="Enregistrer position" On="false" OnChanged="Position_OnChanged"></SwitchCell>
+                </TableSection>
+            </TableRoot>
+        </TableView>
+    </ContentPage.Content>
+    
+</ContentPage>

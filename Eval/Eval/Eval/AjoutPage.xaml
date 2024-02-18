@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:eval="clr-namespace:Eval"
+             x:Class="Eval.AjoutPage">
+    <ContentPage.Content>
+      <StackLayout>
+            <Label Text="Ajoutez un nouveau collaborateur" />
+            <TableView >
+                <TableRoot>
+                    <TableSection Title="UTILISATEUR">
+                        <EntryCell x:Name="nom" Text="" Placeholder="Nom" />
+                        <EntryCell x:Name="prenom" Text="" Placeholder="Prénom" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+            <eval:Spinner x:Name="service"></eval:Spinner>
+            <eval:Spinner x:Name="choix"></eval:Spinner>
+            <Button Text="Créer" Clicked="NewCollab"/>
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>

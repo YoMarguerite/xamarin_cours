@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Eval.Spinner">
+  <ContentView.Content>
+      
+      <StackLayout>
+            <Button x:Name="button" Text="{Binding SelectedItem}" Clicked="Button_Clicked" BindingContext="{x:Reference listview}"></Button>
+            <StackLayout IsVisible="True" >
+                <ListView x:Name="listview" ItemTapped="ListView_ItemTapped">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding .}"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+          
+       </StackLayout>
+  </ContentView.Content>
+</ContentView>

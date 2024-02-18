@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Pizzeria.DetailPizzaPage"
+             Title="Détail de la pizza">
+
+    <StackLayout Orientation="Vertical">
+
+        <Label Text="{Binding Nom}" FontAttributes="Bold" FontSize="Medium" />
+        <Image Source="{Binding Path=IsVegetarian, Converter={StaticResource cnvBoolToVeganImage}}"
+               WidthRequest="50" HeightRequest="50" />
+
+        <Label Text="{Binding Prix, StringFormat='Prix : {0:C2}'}"
+               HorizontalOptions="End"
+               FontAttributes="Bold" FontSize="Small" />
+
+        <Label Text="{Binding Ingredients}" FontSize="Default" />
+
+    </StackLayout>
+
+</ContentPage>

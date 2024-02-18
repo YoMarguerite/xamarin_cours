@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.ColorPicker">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            
+            <Label Text="ColorPicker"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="CurrentColor : "/>
+                <Label Text="["/>
+                <Label Text="{Binding Value, StringFormat='{0:F}'}" BindingContext="{x:Reference SliderRed}"/>
+                <Label Text=" , "/>
+                <Label Text="{Binding Value, StringFormat='{0:F}'}" BindingContext="{x:Reference SliderGreen}"/>
+                <Label Text=" , "/>
+                <Label Text="{Binding Value, StringFormat='{0:F}'}" BindingContext="{x:Reference SliderBlue}"/>
+                <Label Text="]"/>
+            </StackLayout>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Rouge :" TextColor="Red"/>
+                <Slider
+                    Grid.Column="1" 
+                    Grid.Row="0"
+                    Minimum="0"
+                    Maximum="255"
+                    Value="100"
+                    x:Name="SliderRed"/>
+
+                <Label Grid.Column="0" Grid.Row="1" Text="Vert :" TextColor="Green"/>
+                <Slider
+                    Grid.Column="1" 
+                    Grid.Row="1"
+                    Minimum="0"
+                    Maximum="255"
+                    Value="100"
+                    x:Name="SliderGreen"/>
+
+                <Label Grid.Column="0" Grid.Row="0" Text="Blue :" TextColor="Blue"/>
+                <Slider
+                    Grid.Column="1" 
+                    Grid.Row="2"
+                    Minimum="0"
+                    Maximum="255"
+                    Value="100"
+                    x:Name="SliderBlue"/>
+            </Grid>
+
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

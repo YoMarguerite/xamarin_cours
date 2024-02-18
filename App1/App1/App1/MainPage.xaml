@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App1"
+             x:Class="App1.MainPage">
+    <StackLayout>
+        <Image x:Name="ImgParam"
+               Source="https://img.icons8.com/color/260/settings.png"
+               WidthRequest="40"
+               HeightRequest="40"
+               HorizontalOptions="End"
+               Margin="5"
+               />
+
+
+
+        <Label Text="Welcome to my super app !"
+               VerticalOptions="Center"
+               HorizontalOptions="Center"></Label>
+       
+    </StackLayout>
+
+</ContentPage>

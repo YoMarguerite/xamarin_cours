@@ -1,0 +1,16 @@
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Eval.csprojAssemblyReference.cache
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\AjoutPage.xaml.g.cs
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\ListeChoixPage.xaml.g.cs
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\NbComponent.xaml.g.cs
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Spinner.xaml.g.cs
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Eval.csproj.CoreCompileInputs.cache
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Eval.AssemblyInfoInputs.cache
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Eval.AssemblyInfo.cs
+C:\xamarin\Eval\Eval\Eval\bin\Debug\netstandard2.0\Eval.deps.json
+C:\xamarin\Eval\Eval\Eval\bin\Debug\netstandard2.0\Eval.dll
+C:\xamarin\Eval\Eval\Eval\bin\Debug\netstandard2.0\Eval.pdb
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Eval.dll
+C:\xamarin\Eval\Eval\Eval\obj\Debug\netstandard2.0\Eval.pdb

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:test"
+             x:Class="test.MainPage">
+
+    <StackLayout>
+        <!-- Place new controls here -->
+        <Label Text="Welcome to Xamarin.Forms!" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <ListView x:Name="listview">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label Text="{Binding puissance, StringFormat='\{0:C2\}'}"
+                                       HorizontalOptions="End"
+                                       FontAttributes="Bold" FontSize="Small" />
+
+                                <Label Text="{Binding modele}"
+                                       FontSize="Default" />
+                                
+                                <Label Text="{Binding marque}"
+                                       HorizontalOptions="End"
+                                       FontAttributes="Bold" FontSize="Small" />
+                            </StackLayout>  
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

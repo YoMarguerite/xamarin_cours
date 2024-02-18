@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:AppPizza"
+             x:Class="AppPizza.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <ListView x:Name="ListDisplay">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Label Text="{Binding Nom}" FontAttributes="Bold" />
+                            <Label Grid.Column="1" Text="{Binding Prix}" />
+                            <Label Grid.Column="2" Text="{Binding Ingredients}"/>
+                            <Image Source="https://ebaqdesign.com/wp-content/uploads/2018/01/cannabis-leaf.jpg" Grid.Column="3" IsVisible="{Binding Vegetarian}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>

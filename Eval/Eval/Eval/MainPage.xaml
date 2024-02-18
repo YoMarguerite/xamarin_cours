@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Eval"
+             x:Class="Eval.MainPage">
+
+    <StackLayout>
+        <Image Source="xamarin.png" 
+               WidthRequest="40"
+               HeightRequest="40"
+               HorizontalOptions="Center"
+               Margin="5"/>
+
+        <local:NbComponent/>
+
+        <Button Text="Liste des Choix" Clicked="ChoixCollab"/>
+
+        <Button Text="Nouveau Choix" Clicked="AddCollab"/>
+
+    </StackLayout>
+
+</ContentPage>

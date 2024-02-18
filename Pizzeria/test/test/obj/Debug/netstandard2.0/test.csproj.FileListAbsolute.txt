@@ -1,0 +1,12 @@
+C:\xamarin\Pizzeria\test\test\bin\Debug\netstandard2.0\test.deps.json
+C:\xamarin\Pizzeria\test\test\bin\Debug\netstandard2.0\test.dll
+C:\xamarin\Pizzeria\test\test\bin\Debug\netstandard2.0\test.pdb
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\test.csprojAssemblyReference.cache
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\test.csproj.CoreCompileInputs.cache
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\test.AssemblyInfoInputs.cache
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\test.AssemblyInfo.cs
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\XamlC.stamp
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\test.dll
+C:\xamarin\Pizzeria\test\test\obj\Debug\netstandard2.0\test.pdb
